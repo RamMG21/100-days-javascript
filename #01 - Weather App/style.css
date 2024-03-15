@@ -35,10 +35,9 @@ body{
 }
 
 .not-found img{
-    margin-top: 30px;
-    margin-left: 100px;
-    width: 350px;
+    width: 55%;
     border-radius: 25%;
+    
 }
 
 .not-found p{
