@@ -9,24 +9,47 @@
     margin-top: 50px;
     margin-left: 90px;
 }
-.container-1 img {
+.img1 {
     margin-left: 300px;
     width: 1200px; /* Ancho deseado */
     height: auto; /* Altura automática para mantener la proporción */
 }
+
+.img2 {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 280px;
+  width: 200px; /* Ancho deseado */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+
 
 
 .card p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute; /* Establece el texto como posición absoluta */
     top: 20px; /* Distancia desde la parte superior */
-    left: 20px; /* Distancia desde la izquierda */
+    left: 40px; /* Distancia desde la izquierda */
     color: rgb(0, 0, 0); /* Color del texto */
     font-size: 32px; /* Tamaño de fuente */
 }
 
+.alt{
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 150px;
+  font-size: 22px; /* Tamaño de fuente */
+}
 
 
+.lat{
+  position: absolute;
+  margin-top: 369px;
+  margin-left: 150px;
+  font-size: 22px; /* Tamaño de fuente */
+}
 
 .card input{
     position:absolute;
