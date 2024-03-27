@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#0056b3;
+}
+.cardGenerator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cardGenerator h1{
+    padding: 1rem 1.75rem;
+    border-bottom: 1px solid #0056b3;
+}
+
+.pswField{
+    text-decoration: none;
+    margin-left: 20%;
+    font-family: Gilory;
+    color: #0056b3;
+}
+
+.input_box input{
+    margin-left: 5px;
+    width: 95%;
+    height: 40px;
+    background: none;
+    font-size: 1.05rem;
+    font-weight: 300;
+    border-radius: 10px;
+    letter-spacing: 1.4px;
+}
+
+.input_box span{
+    position: absolute;
+    cursor: pointer;
+    right: 13px;
+    line-height: 45px;
+    color: #0056b3;
+}
+
+.input_box span:hover{
+    color: black;
+}
+
+.pass_len{
+    display: flex;
+    justify-content: space-between;
+}
+.pass_len input{
+    width: 95%;
+}
+
+h1{
+    
+    font-family:Gilroy;
+}
+h2{
+    font-family:Gilroy;
+}
+h3{
+    font-family:Gilroy;
+}
+
+.pass_set .options{
+    display: flex;
+}
+
+
+.gbutton {
+    display: flex;
+    color: #007bff;
+    text-decoration: none;
+    
+    
+}
+
+
+.generate-button{
+    
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.generate-button:hover{
+    background-color: #0056b3;
+}
+
