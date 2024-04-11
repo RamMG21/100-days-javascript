@@ -77,19 +77,19 @@ h3{
     display: flex;
     color: #007bff;
     text-decoration: none;
-    
-    
+    width: 500px;
+    height: 40px;
 }
 
-
-.generate-button{
-    
+.gbutton a{
+    display: flex;
     text-decoration: none;
     background-color: #007bff;
     color: #fff;
     border-radius: 10px;
     transition: background-color 0.3s;
 }
+
 
 .generate-button:hover{
     background-color: #0056b3;
