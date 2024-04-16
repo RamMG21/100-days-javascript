@@ -1,0 +1,49 @@
+body{
+    background-color: #131316;
+    color: #fff;
+    font-family: Lato;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display:grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.logos{
+    display: flex;
+}
+
+.logo{
+    background-color: #fff;
+    border-radius: 0%;
+    padding: 1rem;
+    margin: 0 0.5rem;
+}
+
+.logo_0 {
+    transition-delay: 200ms;
+}
+
+.logo_1 {
+    transition-delay: 400ms;
+}
+.logo_2 {
+    transition-delay: 280ms;
+}
